@@ -89,7 +89,7 @@ class Zend_Validate_CreditCard extends Zend_Validate_Abstract
         self::MASTERCARD       => array(16),
         self::SOLO             => array(16, 18, 19),
         self::UNIONPAY         => array(16, 17, 18, 19),
-        self::VISA             => array(16),
+        self::VISA             => array(13, 16),
     );
 
     /**
